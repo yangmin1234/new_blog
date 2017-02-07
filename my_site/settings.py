@@ -116,7 +116,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(DATA_BASE, 'media')
 
 STATICFILES_DIRS = (
-    os.path.join(DATA_BASE, 'static'),
+    os.path.join(BASE_DIR, 'static'),
 )
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR,'templates'),
