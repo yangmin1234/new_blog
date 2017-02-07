@@ -107,10 +107,10 @@ USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
-
-STATIC_URL = '/static/'
-STATIC_ROOT = "/data/web/new_blog/"
 DATA_BASE = "/data/web/new_blog/"
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(DATA_BASE, 'static')
+
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(DATA_BASE, 'media')
