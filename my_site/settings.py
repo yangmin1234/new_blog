@@ -119,13 +119,13 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR,'templates'),
+    os.path.join(BASE_DIR, 'templates'),
 )
 
 
 ADMINS = {
 
-   ('tmac', 'kan49733110@163.com'),
+   ('yangmin', 'yangmin1234@sina.cn'),
 
 }
 
